@@ -1,0 +1,119 @@
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #22223b;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.1);
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #fff !important;
+  font-size: 1.5rem;
+}
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+/* Headings */
+h1, .display-4 {
+  color: #3a86ff;
+  font-weight: 700;
+}
+h2, .h5 {
+  color: #8338ec;
+}
+
+/* Card */
+.card {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 4px 24px rgba(58,134,255,0.08);
+}
+.card-header {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  color: #fff !important;
+  border-radius: 1rem 1rem 0 0;
+}
+
+/* Table */
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+.table-hover tbody tr:hover {
+  background-color: #bdb2ff;
+}
+
+/* Buttons */
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #3a86ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(6,214,160,0.1);
+}
+.btn-success:hover {
+  background: linear-gradient(90deg, #3a86ff 0%, #06d6a0 100%);
+}
+.btn-link {
+  color: #8338ec;
+  font-weight: 500;
+}
+.btn-link:hover {
+  color: #ff006e;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 1rem;
+}
+.modal-header {
+  background: #3a86ff;
+  color: #fff;
+  border-radius: 1rem 1rem 0 0;
+}
+.modal-footer {
+  border-radius: 0 0 1rem 1rem;
+}
+
+/* Custom Table Headings */
+th {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0e7ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a86ff;
+  border-radius: 4px;
+}
